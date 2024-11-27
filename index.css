@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+header{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-right: 100px;
+}
+header nav ul li a{
+    font-size: 18px;
+    line-height: 150px;
+    color: black;
+}
+header nav ul button{
+    width: 182px;
+    height: 87px;
+    color: black;
+    font-size: 18px;
+    line-height: 150px;
+    border: 1px solid;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.container .container_box h1{
+    width: 807px;
+    font-size: 52px;
+    line-height: 80px;
+    color: black;
+}
+.container .container_box p{
+    width: 525px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.container .container_box button{
+    width: 207px;
+    height: 87px;
+    border: 1px solid;
+    border-radius: 50px;
+    color: #fff;
+    background-color: rgba(24, 22, 22, 0.514);
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+
+.input{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.input .cards .card{
+    width: 330px;
+    height: 408px;
+    background-color: rgba(24, 22, 22, 0.514);
+    border: 1px solid;
+    border-radius: 20px;
+    border: none;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px ;
+    gap: 40px;
+}
+
+.input .cards .card h2{
+    font-size: 30px;
+    width: 263px;
+    color: black;
+    /* line-height: 30px; */
+    font-weight: 500;
+}
+
+.input .cards .card p{
+    font-size: 20px;
+    width: 230px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.input h1{
+    width: 140px;
+    font-size: 36px;
+    margin-bottom: 70px;
+
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box h1{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.box .card .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+
+}
+.box button {
+    width: 207px;
+    height: 87px;
+    border: 1px solid ;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(24, 22, 22, 0.514);
+    margin-top: 100px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.page .cards .card .card_img{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+  
+}
+
+.page  .card{
+    /* display: flex; */
+    padding: 20px;
+    width: 655px;
+    height: 237px;
+    background-color: rgba(24, 22, 22, 0.514);
+    border: 1px solid;
+    border-radius: 15px;
+    border: none;
+}
+
+.page .card p{
+    width: 599px;
+    font-size: 20px;
+}
+.page .t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.page .card h2{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.page .card h3{
+    font-size: 20px;
+    color: rgba(24, 22, 22, 0.514);
+    padding: 10px;
+}
+
+.page h1{
+    font-size: 36px;
+    margin-bottom: 150px;
+}
+
+.position{
+    width: 100%;
+    height: 199vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.position .position_text h1{
+    width: 757px;
+    height: 312px;
+    font-size: 52px;
+    line-height: 70px;
+
+
+}
+.position .position_text p{
+    width: 725px;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 28px;
+    padding-right: 100px;
+}
+
+
+.position .img .imggg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
